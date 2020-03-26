@@ -1,11 +1,11 @@
 # Store Media Player
-This application was created and published on the Windows 8 Store on June, 2013; for Windows 8 and later on upgraded for Windows 8.1
+This application was created and published on the Windows Store on June, 2013; for Windows 8 and later on upgraded for Windows 8.1
 
 The application integrated local folders into a single point of access, allowing for an easy to setup and use of virtual folders and reproduction lists of music and video files.
 
 The project was removed from the store soon after the release of Windows 10.  
-During its first two months in the store, it achieve an average of 3 downloads every 10 minutes.
-The user reviews gave the app a score of 4.3 out of 5 during the Windows 8/8.1 life cycle. With the release of Windows 10, the application became unstable (reporting several different exceptions widespread) and was subsequently removed from the store with an average score of 2.7 out of 5.
+During its first two months in the store, it achieve an average of 3 downloads every 10 minutes.  
+User reviews gave the app a score of 4.3 out of 5 during the Windows 8/8.1 life cycle. With the release of Windows 10, the application became unstable (reporting several different exceptions widespread) and was subsequently removed from the store with an average score of 2.7 out of 5.
 
 
 ## Original description
