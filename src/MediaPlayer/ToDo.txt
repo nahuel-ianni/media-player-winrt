@@ -1,0 +1,22 @@
+﻿Localizar App!
+Thread para anadir archivos.
+Subtitlos.
+Singleton?
+
+
+GroupsViewPage:
+	List: vertical color bar/type icon (not preview), stackP horizontal with: name.type / timesReproduced / 
+	Converter: Allow customization of total items.
+	Order files by times reproduced.
+
+
+
+*********************************************************************************************************************************
+*********************************************************************************************************************************
+*********************************************************************************************************************************
+
+Violetita: #5133AB  --> 81,51,171
+#464646
+#4d42ae
+
+http://social.msdn.microsoft.com/Forums/en-US/winappswithnativecode/thread/2a59854f-5366-4efe-abb1-97cf189152ec

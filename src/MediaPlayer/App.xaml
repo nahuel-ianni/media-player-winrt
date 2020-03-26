@@ -1,0 +1,33 @@
+﻿<Application
+    x:Class="MediaPlayer.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:media="using:Media"
+    xmlns:local="using:MediaPlayer"
+    xmlns:converters="using:MediaPlayer.Converters"
+    RequestedTheme="Dark">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- 
+                    Styles that define common aspects of the platform look and feel
+                    Required by Visual Studio project and item templates
+                 -->
+                <ResourceDictionary Source="Common/StandardStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Public instance across the application of the Media.Manager object. -->
+            <media:Manager x:Key="mediaManager"/>
+
+            <!-- Public instance across the application of the Name converter. -->
+            <converters:NameToShorterNameConverter x:Key="nameToShorterNameConverter"/>
+
+            <!-- Public instance across the application of the Extension converter. -->
+            <converters:StringToUpperCaseConverter x:Key="stringToUpperCaseConverter"/>
+
+            <!-- Public instance across the application of the Extension converter. -->
+            <converters:ExtensionToBitmapImageConverter x:Key="extensionToBitmapImageConverter"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

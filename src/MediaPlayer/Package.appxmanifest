@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="15039NahuelIanni.MediaplayerRT" Publisher="CN=3E4A93EE-2014-4406-9106-03859BC73446" Version="1.9.313.15" />
+  <Properties>
+    <DisplayName>Windows Store Media Player</DisplayName>
+    <PublisherDisplayName>Nahuel Ianni</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="MediaPlayer.App">
+      <VisualElements DisplayName="Windows Store Media Player" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Windows Store application for reproducing music and videos." ForegroundText="light" BackgroundColor="black">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="black" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="videosLibrary" />
+    <Capability Name="musicLibrary" />
+  </Capabilities>
+</Package>
